@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_cc_sales
+    columns:
+      ### PK ###
+      - name: product_id
+        tests:
+          - unique
+          - not_null
+ 
